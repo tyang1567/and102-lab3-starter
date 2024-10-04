@@ -8,21 +8,68 @@
     android:layout_margin="6dp">
 
     <TextView
-        android:id="@+id/book_title"
-        android:textAppearance="?attr/textAppearanceListItem"
+        android:id="@+id/ranking"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="serif"
+        android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/book_image"
+        android:layout_width="109dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="15dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintStart_toEndOf="@+id/ranking"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <TextView
         android:id="@+id/book_author"
-        android:textAppearance="?attr/textAppearanceListItem"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@+id/book_title"
+        android:layout_marginStart="8dp"
+        android:textAppearance="?attr/textAppearanceListItem"
         app:layout_constraintStart_toStartOf="parent"
-        />
+        app:layout_constraintTop_toBottomOf="@+id/book_title" />
+
+    <TextView
+        android:id="@+id/book_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="sans-serif-black"
+        android:textAppearance="?attr/textAppearanceListItem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/book_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_marginStart="8dp"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:singleLine="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_author" />
+
+    <Button
+        android:id="@+id/buy_button"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/buy_on_amazon"
+        android:textSize="13sp"
+        android:backgroundTint="#567b95"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/book_description" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
