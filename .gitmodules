@@ -1,0 +1,3 @@
+[submodule "cs388-lab3"]
+	path = cs388-lab3
+	url = git@github.com:tyang1567/cs388-lab3.git
