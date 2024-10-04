@@ -2,11 +2,11 @@
 
 Course Link: [CodePath Android Course](https://courses.codepath.org/courses/and102/unit/3#!labs)
 
-Submitted by: **Your Name Here** <!-- Replace 'Your Name Here' with your actual name -->
+Submitted by: **Tiffany Yang** <!-- Replace 'Your Name Here' with your actual name -->
 
 **NY Times Bestselling Books** is an app designed to display the current bestselling books based on NY Times data.
 
-Time spent: **X** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
+Time spent: **4** hours spent in total <!-- Replace 'X' with the number of hours you spent on this project -->
 
 ## Application Features
 
